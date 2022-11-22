@@ -24,7 +24,7 @@ NOTE: If Above command or ed25519 doesn't work, use this below:
 1. Copy the SSH public key to your clipboard  
 > $ clip < ~/.ssh/public_sshkey_name.pub  
 > TIP: If clip isn't working, you can locate the hidden .ssh folder, open the file in your favourite text editor, and copy it your clipboard.  
-2. go to account in github > ssh keys > add key > paste copied content
+2. go to settings in github > ssh keys > add key > paste copied content
 3. Clone a repository and known_hosts file will be generated.
 
 <!---
