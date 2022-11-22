@@ -11,13 +11,13 @@
 1. Generating a new SSH key  
 > $ ssh-keygen -t ed25519 -C "your_email@example.com"  
 NOTE: If Above command or ed25519 doesn't work, use this below:  
-> $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+> $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"  
 > Generating public/private ALGORITHM key pair under the default location: /c/Users/YOU/.ssh/id_ALGORITHM
 2. Start the ssh-agent in the background  
 > $ eval "$(ssh-agent -s)"  
 > Agent pid 59566
 3. Add your SSH private key to the ssh-agent.  
-$ ssh-add ~/.ssh/private_key_name
+> $ ssh-add ~/.ssh/private_key_name
 
 ## ADDING A NEW SSH KEY TO YOUR ACCOUNT
 
