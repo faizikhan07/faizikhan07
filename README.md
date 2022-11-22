@@ -21,8 +21,8 @@ NOTE: If Above command or ed25519 doesn't work, use this below:
 
 ## ADDING A NEW SSH KEY TO YOUR ACCOUNT
 
-1. Copy the SSH public key to your clipboard
-$ clip < ~/.ssh/public_sshkey_name.pub
+1. Copy the SSH public key to your clipboard  
+> $ clip < ~/.ssh/public_sshkey_name.pub  
 2. go to account in github > ssh keys > add key > paste copied content
 3. Clone a repository and known_hosts file will be generated.
 
